@@ -33,8 +33,19 @@ img {
   display: block;
 }
 
+
+
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    align-items: center;
   }
+
+  .title {
+    text-align: left;
+    padding-left: 20px;
+  }
+
 }
+
